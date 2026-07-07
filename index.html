@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="vaq0DUt7wYTN8JGc1Mwz5kfDBeF7nP5D";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("vaq0DUt7wYTN8JGc1Mwz5kfDBeF7nP5D");
+  analytics.page();
+  }}();
+</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Dog</title>
+</head>
+<body>
+  <h1>Happy Dog :dog:</h1>
+    <p id="status" aria-live="polite"></p>
+
+    <p><strong>Tell us about your Pet details and what subscription plan you're interested:</strong></p>
+
+    <form action="#" method="POST">
+        <label for="email">Your email:</label>
+        <input type="email" id="email" name="email"><br>
+
+        <label for="plan">Subscription Plan:</label>
+        <input type="text" id="plan" name="plan"><br>
+
+        <label for="fname">Your first name:</label>
+        <input type="text" id="fname" name="fname"><br>
+
+        <label for="lname">Your last name:</label>
+        <input type="text" id="lname" name="lname"><br>
+
+        <label for="petname">Your Pet Name:</label>
+        <input type="text" id="petname" name="petname"><br>
+
+        <input type="submit" value="Send form">
+    </form>
+
+    <script src="analytics-events.js"></script>
+</body>
+</html>
